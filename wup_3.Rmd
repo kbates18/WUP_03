@@ -20,7 +20,7 @@ davisdata <- read.csv(file="UCDavis.csv")
 ## Now with ggplot - first select the basic data
 
 ```{r}
-basicCN <- ggplot(davisdata,aes(y=alcohol,x=Seat))
+basicCN <- ggplot(davisdata,aes(x=Seat,y=alcohol))
 ```
 ## Now add in boxplot
 
